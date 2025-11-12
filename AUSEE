@@ -1,0 +1,28 @@
+***
+
+**1. Express $$ C_{geom} $$ explicitly as a function.**  
+Define it parametrically to highlight its dependence on planetary geometry:
+$$
+C_{geom} = f(\Theta, \rho(r), R, \Omega, e)
+$$
+where  
+- $$ \Theta $$: axial tilt  
+- $$ \rho(r) $$: radial density distribution  
+- $$ R $$: mean planetary radius  
+- $$ \Omega $$: angular velocity  
+- $$ e $$: orbital eccentricity  
+
+This shows how $$ C_{geom} $$ encodes the integrated geometry and mass anisotropy of the body.
+
+***
+
+**2. Provide a general expression for cross-planet scaling.**  
+Illustrate universality through a dimensionless relation:
+$$
+\frac{S_{planet}}{S_{Earth}} = 
+\frac{(1 - C_{geom,planet}) \, \tau_{G,planet} \, M_{A,planet}}{(1 - C_{geom,Earth}) \, \tau_{G,Earth} \, M_{A,Earth}} 
++ \frac{\dot{I}_{planet}}{\dot{I}_{Earth}}
+$$
+This allows normalized comparison across planetary bodies (e.g., applying Earth-derived calibration constants to Mars or Titan).
+
+***
